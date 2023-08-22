@@ -5,7 +5,7 @@
               <div class="col-md-3">
                  <div class="site-logo">
                     <a href="index.html">
-                    <img width="70" height="70" src="assets/img/logo.png" alt="gauto" />
+                    <img width="70" height="70" src="{{asset('assets/img/logo.png')}}" alt="logo" />
                     </a>
                  </div>
               </div>

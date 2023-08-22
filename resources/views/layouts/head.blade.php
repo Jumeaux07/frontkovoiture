@@ -6,13 +6,13 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="description" content="gauto | Car Rental HTML Template from Themescare">
+      <meta name="description" content="K.O Gestion Voiture est une structure de gestion, de vente et de location de véhicule.">
       <meta name="keyword" content="taxi,car,rent,hire,transport">
       <meta name="author" content="Themescare">
       <!-- Title -->
-      <title>gauto</title>
+      <title>{{config('app.name')}} | {{$title ?? ""}}</title>
       <!-- Favicon -->
-      <link rel="icon" type="image/png" sizes="32x32" href="{{asset('assets/img/favicon/favicon-32x32.png')}}">
+      <link rel="icon" type="image/png" sizes="32x32" href="{{asset('assets/img/logo.png')}}">
       <!--Bootstrap css-->
       <link rel="stylesheet" href="{{asset('assets/css/bootstrap.css')}}">
       <!--Font Awesome css-->
