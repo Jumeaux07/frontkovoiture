@@ -9,7 +9,7 @@
               </div>
               <div class="col-md-6">
                  <div class="promo-box-right">
-                    <h3>Voulez-vous générer du revenu avec votre vhéicule chez K.O Gestion ?</h3>
+                    <h3>Voulez-vous générer du revenu avec votre véhicule chez K.O Gestion ?</h3>
                     <a href="#" class="gauto-btn">Devenir partenaire</a>
                  </div>
               </div>
