@@ -7,9 +7,9 @@
                     <nav>
                        <ul id="gauto_navigation">
                           <li class="active"><a href="index.html">Accueil</a></li>
-                          <li><a href="about.html">A propos</a></li>
+                          <li><a href="{{route('apropos')}}">A propos</a></li>
                           <li>
-                             <a href="#">Service</a>
+                             <a href="#">Services</a>
                              <ul>
                                 <!-- <li><a href="service.html">All services</a></li>
                                 <li><a href="single-service.html">Service Details</a></li> -->
@@ -42,7 +42,7 @@
                                 <li><a href="register.html">register</a></li>
                              </ul>
                           </li> -->
-                          <li><a href="contact.html">contact</a></li>
+                          <li><a class="" href="{{route('contact')}}">contact</a></li>
                        </ul>
                     </nav>
                  </div>
