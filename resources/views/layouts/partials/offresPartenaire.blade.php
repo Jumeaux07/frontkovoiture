@@ -4,7 +4,7 @@
            <div class="row">
               <div class="col-md-6">
                  <div class="promo-box-left">
-                    <img src="assets/img/toyota-offer-2.png" alt="promo car" />
+                    <img src="assets/img/suzuki-disire.png" alt="promo car" />
                  </div>
               </div>
               <div class="col-md-6">
@@ -26,14 +26,14 @@
                 <div class="col-md-12">
                     <div class="site-heading">
                     <!-- <h4>Come with</h4> -->
-                    <h2>Voitures en locations disponibles</h2>
+                    <h2>Voitures en locations</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="offer-tabs">
-                    <ul class="nav nav-tabs" id="offerTab" role="tablist">
+                    {{-- <ul class="nav nav-tabs" id="offerTab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">All Marque</a>
                         </li>
@@ -49,7 +49,7 @@
                         <li class="nav-item">
                             <a class="nav-link" id="mercedes-tab" data-toggle="tab" href="#mercedes" role="tab" aria-controls="mercedes" aria-selected="false">mercedes</a>
                         </li>
-                    </ul>
+                    </ul> --}}
                     <div class="tab-content" id="offerTabContent">
                         <!-- All Tab Start -->
                         <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
@@ -127,85 +127,14 @@
                                 </div>
                                 </div>
                             </div>
-                            <!-- <div class="row">
-                                <div class="col-lg-4">
-                                <div class="single-offers">
-                                    <div class="offer-image">
-                                        <a href="#">
-                                        <img src="assets/img/bmw-offer.png" alt="offer 1" />
-                                        </a>
-                                    </div>
-                                    <div class="offer-text">
-                                        <a href="#">
-                                            <h3>BMW X3</h3>
-                                        </a>
-                                        <h4>$50.00<span>/ Day</span></h4>
-                                        <ul>
-                                            <li><i class="fa fa-car"></i>Model:2017</li>
-                                            <li><i class="fa fa-cogs"></i>Automatic</li>
-                                            <li><i class="fa fa-dashboard"></i>20kmpl</li>
-                                        </ul>
-                                        <div class="offer-action">
-                                            <a href="#" class="offer-btn-1">Rent Car</a>
-                                            <a href="#" class="offer-btn-2">Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
-                                <div class="col-lg-4">
-                                <div class="single-offers">
-                                    <div class="offer-image">
-                                        <a href="#">
-                                        <img src="assets/img/audi-offer.png" alt="offer 1" />
-                                        </a>
-                                    </div>
-                                    <div class="offer-text">
-                                        <a href="#">
-                                            <h3>Audi Q3</h3>
-                                        </a>
-                                        <h4>$75.00<span>/ Day</span></h4>
-                                        <ul>
-                                            <li><i class="fa fa-car"></i>Model:2017</li>
-                                            <li><i class="fa fa-cogs"></i>Automatic</li>
-                                            <li><i class="fa fa-dashboard"></i>20kmpl</li>
-                                        </ul>
-                                        <div class="offer-action">
-                                            <a href="#" class="offer-btn-1">Rent Car</a>
-                                            <a href="#" class="offer-btn-2">Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
-                                <div class="col-lg-4">
-                                <div class="single-offers">
-                                    <div class="offer-image">
-                                        <a href="#">
-                                        <img src="assets/img/toyota-offer-2.png" alt="offer 1" />
-                                        </a>
-                                    </div>
-                                    <div class="offer-text">
-                                        <a href="#">
-                                            <h3>Toyota Camry</h3>
-                                        </a>
-                                        <h4>$55.00<span>/ Day</span></h4>
-                                        <ul>
-                                            <li><i class="fa fa-car"></i>Model:2017</li>
-                                            <li><i class="fa fa-cogs"></i>Automatic</li>
-                                            <li><i class="fa fa-dashboard"></i>20kmpl</li>
-                                        </ul>
-                                        <div class="offer-action">
-                                            <a href="#" class="offer-btn-1">Rent Car</a>
-                                            <a href="#" class="offer-btn-2">Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
-                            </div> -->
+                        </div>
+                        <div style="margin-top: 10px">
+                            <a href="{{route('location')}}"><button class="gauto-theme-btn"> Toutes les voitures </button></a>
                         </div>
                         <!-- All Tab End -->
 
                         <!-- Nissan Tab Start -->
-                        <div class="tab-pane fade" id="nissan" role="tabpanel" aria-labelledby="nissan-tab">
+                        {{-- <div class="tab-pane fade" id="nissan" role="tabpanel" aria-labelledby="nissan-tab">
                             <div class="row">
                                 <div class="col-lg-4">
                                 <div class="single-offers">
@@ -280,11 +209,11 @@
                                 </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- Nissan Tab End -->
 
                         <!-- Toyota Tab Start -->
-                        <div class="tab-pane fade" id="Toyota" role="tabpanel" aria-labelledby="Toyota-tab">
+                        {{-- <div class="tab-pane fade" id="Toyota" role="tabpanel" aria-labelledby="Toyota-tab">
                             <div class="row">
                                 <div class="col-lg-4">
                                 <div class="single-offers">
@@ -359,11 +288,11 @@
                                 </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- Toyota Tab Start -->
 
                         <!-- Audi Tab Start -->
-                        <div class="tab-pane fade" id="Audi" role="tabpanel" aria-labelledby="Audi-tab">
+                        {{-- <div class="tab-pane fade" id="Audi" role="tabpanel" aria-labelledby="Audi-tab">
                             <div class="row">
                                 <div class="col-lg-4">
                                 <div class="single-offers">
@@ -438,11 +367,11 @@
                                 </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- Audi Tab End -->
 
                         <!-- Marcedes Tab Start -->
-                        <div class="tab-pane fade" id="mercedes" role="tabpanel" aria-labelledby="mercedes-tab">
+                        {{-- <div class="tab-pane fade" id="mercedes" role="tabpanel" aria-labelledby="mercedes-tab">
                             <div class="row">
                                 <div class="col-lg-4">
                                 <div class="single-offers">
@@ -517,7 +446,7 @@
                                 </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- Marcedes Tab End -->
 
                     </div>

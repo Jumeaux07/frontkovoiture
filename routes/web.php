@@ -18,6 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[HomeController::class,'index'])->name('dashboard');
 Route::get('/contact',[HomeController::class,'contact'])->name('contact');
 Route::get('/apropos',[HomeController::class,'apropos'])->name('apropos');
+Route::get('/services',[HomeController::class,'services'])->name('services');
+Route::get('/location',[HomeController::class,'location'])->name('location');
+Route::get('/detail-voiture',[HomeController::class,'detail'])->name('detail.voiture');
 
 Route::get('/login',[AuthController::class,'loginForm']);
 Route::post('/login',[AuthController::class,'login']);

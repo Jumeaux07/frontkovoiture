@@ -6,17 +6,17 @@
                  <div class="mainmenu">
                     <nav>
                        <ul id="gauto_navigation">
-                          <li class="active"><a href="index.html">Accueil</a></li>
+                          <li class="active"><a href="{{route('dashboard')}}">Accueil</a></li>
                           <li><a href="{{route('apropos')}}">A propos</a></li>
                           <li>
-                             <a href="#">Services</a>
+                             <a href="{{route('services')}}">Services</a>
                              <ul>
                                 <!-- <li><a href="service.html">All services</a></li>
                                 <li><a href="single-service.html">Service Details</a></li> -->
                              </ul>
                           </li>
                           <li>
-                             <a href="#">Location</a>
+                             <a href="{{route('location')}}">Location</a>
                              <ul>
                                <!--  <li><a href="car-listing.html">car listing</a></li>
                                 <li><a href="car-booking.html">car booking</a></li> -->

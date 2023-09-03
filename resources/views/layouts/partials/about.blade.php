@@ -28,7 +28,7 @@
               </div>
               <div class="col-lg-6">
                  <div class="about-right">
-                    <img src="assets/img/about.png" alt="car" />
+                    <img src="assets/img/chevrolet.png" alt="car"/>
                  </div>
               </div>
            </div>

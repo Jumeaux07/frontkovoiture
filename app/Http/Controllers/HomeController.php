@@ -29,4 +29,30 @@ class HomeController extends Controller
 
         return view('pages.apropos',$data);
     }
+
+    public function services(){
+
+        $data['menu']= 'services';
+        $data['title']= 'services';
+
+        return view('pages.services',$data);
+    }
+
+    public function location(){
+
+        $data['menu']= 'location';
+        $data['title']= 'location';
+
+        return view('pages.location',$data);
+
+    }
+
+    public function detail(){
+
+        $data['menu']= 'detail';
+        $data['title']= 'detail';
+
+        return view('pages.detail_voiture',$data);
+
+    }
 }
