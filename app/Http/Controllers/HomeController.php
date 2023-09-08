@@ -55,4 +55,5 @@ class HomeController extends Controller
         return view('pages.detail_voiture',$data);
 
     }
+
 }

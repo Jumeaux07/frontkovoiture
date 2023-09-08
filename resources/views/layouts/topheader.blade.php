@@ -9,7 +9,7 @@
               </div>
               <div class="col-md-6">
                  <div class="header-top-right">
-                    <a href="#">
+                    <a href="{{route('login')}}">
                     <i class="fa fa-key"></i>
                     Connexion
                     </a>
